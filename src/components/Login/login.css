@@ -1,0 +1,37 @@
+.login {
+  width: 400px;
+  text-align: center;
+  margin: 100px auto;
+}
+
+.login img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.login input {
+  display: block;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0px 10px;
+  outline: none;
+  border: 0.5px solid #333;
+  border-radius: 7px;
+  box-sizing: border-box;
+}
+
+.login input[type="submit"] {
+  background-color: rgb(62, 40, 204);
+  color: #fff;
+  border: 0;
+  border-radius: 0;
+  font-weight: 600;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.login h4 span {
+  color: rgb(62, 40, 204);
+  cursor: pointer;
+}
