@@ -76,6 +76,9 @@
 }
 
 @media screen and (max-width: 460px) {
+  .header__options {
+    margin: 0 10px;
+  }
   .header__options span {
     display: none;
   }
@@ -83,7 +86,7 @@
 
 @media screen and (max-width: 660px) {
   .header {
-    padding: 20px 2px;
+    padding: 2%;
     justify-content: center;
   }
 

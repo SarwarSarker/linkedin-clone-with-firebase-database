@@ -64,4 +64,8 @@
   .post__footer__option span {
     display: none;
   }
+
+  .post__footer .post__footer__option {
+    padding: 10px;
+  }
 }
