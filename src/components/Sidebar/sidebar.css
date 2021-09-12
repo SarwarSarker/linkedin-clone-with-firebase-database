@@ -71,3 +71,23 @@
   font-weight: bold;
   color: #333;
 }
+
+@media screen and (max-width: 680px) {
+  .sidebar {
+    padding: 0 30px;
+  }
+
+  .profile__stars {
+    display: none;
+  }
+
+  .sidebar__recent {
+    display: none;
+  }
+
+  .profile__detail {
+    border-bottom: 0;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+  }
+}

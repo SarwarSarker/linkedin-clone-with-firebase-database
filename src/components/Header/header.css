@@ -74,3 +74,20 @@
   height: 25px;
   object-fit: contain;
 }
+
+@media screen and (max-width: 460px) {
+  .header__options span {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .header {
+    padding: 20px 2px;
+    justify-content: center;
+  }
+
+  .header__search {
+    display: none;
+  }
+}

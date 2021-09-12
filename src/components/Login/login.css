@@ -35,3 +35,9 @@
   color: rgb(62, 40, 204);
   cursor: pointer;
 }
+
+@media screen and (max-width: 660px) {
+  .login {
+    padding: 10px;
+  }
+}

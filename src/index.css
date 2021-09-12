@@ -18,3 +18,19 @@ code {
   display: flex;
   padding: 0 12%;
 }
+
+@media screen and (max-width: 460px) {
+  .app_body {
+    padding: 0 !important;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .app_body {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0 auto;
+  }
+}

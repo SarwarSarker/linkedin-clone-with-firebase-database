@@ -59,3 +59,9 @@
   font-size: 14px;
   font-weight: 500;
 }
+
+@media screen and (max-width: 460px) {
+  .post__footer__option span {
+    display: none;
+  }
+}

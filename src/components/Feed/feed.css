@@ -61,3 +61,17 @@
   margin-left: 5px;
   font-weight: 500;
 }
+
+@media screen and (max-width: 660px) {
+  .feed {
+    margin-top: 30px;
+  }
+  .feed .feed__input {
+    padding: 10px;
+    margin: 0;
+  }
+  .feed__option .option {
+    font-size: 12px;
+    padding: 10px;
+  }
+}
